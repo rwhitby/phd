@@ -38,7 +38,6 @@ TopicAssistant.prototype.setup = function() {
     
     if (this.popped) {
 	this.popButtonElement.style.display = 'none';
-	this.titleElement.style.width = '200px';
     }
     else {
 	this.controller.listen(this.popButtonElement, Mojo.Event.tap, this.popButtonPressed);
