@@ -16,6 +16,9 @@ function MainAssistant()
 		label: $L("Preferences"),
 		command: 'do-prefs'
 	    }, {
+		label: $L("Credits"),
+		command: 'do-credits'
+	    }, {
 		label: $L("Help"),
 		command: 'do-help'
 	    } ]
@@ -122,7 +125,9 @@ MainAssistant.prototype.handleCommand = function(event)
 	case 'do-prefs':
 	this.controller.stageController.pushScene('preferences');
 	break;
-	
+	case 'do-credits':
+	this.controller.stageController.pushScene('credits');
+	break;
 	case 'do-help':
 	this.controller.stageController.pushScene('help');
 	break;
