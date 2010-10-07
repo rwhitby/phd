@@ -56,7 +56,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/java-verify.png" width="250" height="164" /><br />' +
 '<br />' +
-'2.) <a href="http://images.precentral.net/sites/precentral.net/files/webos-homebrew-apps/wosqi/WebOSQuickInstall.jar">Download webOS Quick Install</a> from this link. When asked, click "Save". Save the file it in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. If this direct link does not work, check the <a href="http://forums.precentral.net/canuck-software/228310-webos-quick-install-v3-14-a.html">official forum thread</a> for details. Please consider donating to the developer.<br />' +
+'2.) Download webOS Quick Install from the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a>. When asked, click "Save". Save the file it in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. Please consider donating to the developer.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-save.png" width="250" height="175" /><br />' +
 '<br />' +

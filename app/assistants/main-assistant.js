@@ -50,10 +50,10 @@ MainAssistant.prototype.setup = function()
 	    name:	$L("What Is Homebrew?"),
 	    topic:	'what-is-homebrew',
 	}, {
-	    name:	$L("Installing Preware"),
+	    name:	$L("Installing Preware (Required)"),
 	    topic:	'installing-preware',
 	}, {
-	    name:	$L("Homebrew Applications"),
+	    name:	$L("Great Homebrew Applications"),
 	    topic:	'homebrew-applications',
 	}, {
 	    name:	$L("Using Patches to Add Features"),
