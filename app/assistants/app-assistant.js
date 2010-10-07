@@ -36,12 +36,12 @@ AppAssistant.prototype.handleLaunch = function(params)
 AppAssistant.prototype.launchFirstScene = function(controller)
 {
     vers.init();
-    //    if (vers.showStartupScene()) {
+    if (vers.showStartupScene()) {
 	controller.pushScene('startup');
-    //    }
-    //    else {
+    }
+    else {
 	controller.pushScene('main');
-    //    }
+    }
 };
 
 AppAssistant.prototype.cleanup = function()
