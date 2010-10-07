@@ -26,7 +26,7 @@ var topics = {
 '<br />' +
 '1.) Save all open files and close all apps on your phone.<br />' +
 '<br />' +
-'2.) Start typing &quot;webos2009006&quot; (without quotes). A &quot;Developer Mode&quot; app icon will appear, tap on it.<br />' +
+'2.) Start typing "webos2009006" (without quotes). A "Developer Mode" app icon will appear, tap on it.<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-app.png" width="200" height="149" /><br />' +
 '<br />' +
@@ -34,11 +34,11 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/dev-mode-on.png" width="200" height="54" /><br />' +
 '<br />' +
-'4.) You will be asked to &quot;Restart Your Device&quot;. This will reboot your phone.<br />' +
+'4.) You will be asked to "Restart Your Device". This will reboot your phone.<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-reset.png" width="200" height="153" /><br />' +
 '<br />' +
-'5.) Once your phone has booted, plug it into your home computer with the USB Cable. Select &quot;Just Charge&quot;.<br />' +
+'5.) Once your phone has booted, plug it into your home computer with the USB Cable. Select "Just Charge".<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-charge.png" width="200" height="116" /><br />' +
 '<br />' +
@@ -56,7 +56,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/java-verify.png" width="250" height="164" /><br />' +
 '<br />' +
-'2.) <a href="http://images.precentral.net/sites/precentral.net/files/webos-homebrew-apps/wosqi/WebOSQuickInstall.jar">Download webOS Quick Install</a> from this link. When asked, click &quot;Save&quot;. Save the file it in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. If this direct link does not work, check the <a href="http://forums.precentral.net/canuck-software/228310-webos-quick-install-v3-14-a.html">official forum thread</a> for details. Please consider donating to the developer.<br />' +
+'2.) <a href="http://images.precentral.net/sites/precentral.net/files/webos-homebrew-apps/wosqi/WebOSQuickInstall.jar">Download webOS Quick Install</a> from this link. When asked, click "Save". Save the file it in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. If this direct link does not work, check the <a href="http://forums.precentral.net/canuck-software/228310-webos-quick-install-v3-14-a.html">official forum thread</a> for details. Please consider donating to the developer.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-save.png" width="250" height="175" /><br />' +
 '<br />' +
@@ -69,11 +69,11 @@ var topics = {
 '<img src="images/installing-preware/qi-carrier.png" width="250" height="175" /><br />' +
 '<img src="images/installing-preware/qi-model.png" width="250" height="176" /><br />' +
 '<br />' +
-'5.) Once your Carrier and Device are selected, click &quot;Start Download&quot;. The webOS Doctor will now download.<br />' +
+'5.) Once your Carrier and Device are selected, click "Start Download". The webOS Doctor will now download.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-dr-download.png" width="250" height="144" /><br />' +
 '<br />' +
-'6.) It will automatically open to this screen once ready. Click on the blue &quot;Down Arrow&quot; icon.<br />' +
+'6.) It will automatically open to this screen once ready. Click on the blue "Down Arrow" icon.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-opening.png" width="250" height="154" /><br />' +
 '<br />' +
@@ -81,11 +81,11 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-list-01.png" width="250" height="358" /><br />' +
 '<br />' +
-'8.) Check the box for Preware. Click &quot;Download&quot;, then &quot;Close&quot;.<br />' +
+'8.) Check the box for Preware. Click "Download", then "Close".<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-list-02.png" width="250" height="357" /><br />' +
 '<br />' +
-'9.)  It will now show the app in the list. Click the &quot;Install&quot; button.<br />' +
+'9.)  It will now show the app in the list. Click the "Install" button.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-opening-with-app.png" width="250" height="154" /><br />' +
 '<br />' +
@@ -96,15 +96,65 @@ var topics = {
     },
     'homebrew-applications': {
 	name: "Homebrew Applications",
-	body: "This is the body of the Homebrew Applications topic."
+	body:
+"This is the body of the Homebrew Applications topic."
     },
     'webos-patches': {
 	name: "Using Patches to Add Features",
-	body: "This is the body of the WebOS Patches topic."
+	body:
+"This is the body of the WebOS Patches topic."
     },
     'webos-themes': {
 	name: "Personalise Your Device Theme",
-	body: "This is the body of the WebOS Themes topic."
+	body:
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Stage 1: Enable Theme Feeds' +
+'</div>' +
+'<br />' +
+'<strong>About:</strong> By default, theme feeds are disabled in Preware.  You must enable them before you can install a theme.<br />' +
+'<br />' +
+'<strong>Note:</strong> These functions are done on your phone.<br />' +
+'<br />' +
+'1.) Open Preware.<br />' +
+'<br />' +
+'2.) Select the "Manage Feeds" menu item.<br />' +
+'<br />' +
+'<img src="images/webos-themes/select-manage-feeds.png" width="200" /><br />' +
+'<br />' +
+'3.) Scroll down to locate the "precentral-themes" and "prethemer" feeds.<br />' +
+'<br />' +
+'<img src="images/webos-themes/locate-theme-feeds.png" width="200" /><br />' +
+'<br />' +
+'3.) Enable the "precentral-themes" and "prethemer" feeds.<br />' +
+'<br />' +
+'<img src="images/webos-themes/enable-theme-feeds.png" width="200" /><br />' +
+'<br />' +
+'4.) Backswipe to return to the main Preware screen, and update the package list.<br />' +
+'<br />' +
+'<img src="images/webos-themes/update-package-list.png" width="200" /><br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Stage 2: Choose Your Theme' +
+'</div>' +
+'<br />' +
+'1.) There are many different categories of themes to choose from.<br />' +
+'<br />' +
+'<img src="images/webos-themes/choose-theme-category.png" width="200" /><br />' +
+'<br />' +
+'2.) Select a theme of your choice and install it.<br />' +
+'<br />' +
+'<img src="images/webos-themes/install-theme.png" width="200" /><br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Important Notes' +
+'</div>' +
+'<br />' +
+'1.) You can only have one theme installed at a time.  If you wish to install another theme, you must first remove any installed theme.<br />' +
+'<br />' +
+'2.) Themes must always be removed before any webOS update.<br />' +
+'<br />' +
+'3.) Once you have settled on your chosen theme, you may wish to disable the theme feeds to reduce your Preware startup time.<br />' +
+'<br />'
     },
     'custom-kernels': {
 	name: "Overclocking & Custom Kernels",
@@ -173,7 +223,7 @@ var topics = {
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-1.png" width="200" /><br />' +
 '<br />' +
-'2.) The program will launch. Tap on &quot;I\'ve read this, let\'s continue..&quot;.<br />' +
+'2.) The program will launch. Tap on "I\'ve read this, let\'s continue..".<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-2.png" width="200" /><br />' +
 '<br />' +
