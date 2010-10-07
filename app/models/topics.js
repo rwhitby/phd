@@ -14,7 +14,7 @@ var topics = {
 '<br />'
     },
     'installing-preware': {
-	name: "Installing Preware",
+	name: "Installing Preware (Required)",
 	body: 
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 '  Stage 1: Enable Developer Mode' +
@@ -95,9 +95,18 @@ var topics = {
 '<br />'
     },
     'homebrew-applications': {
-	name: "Homebrew Applications",
+	name: "Great Homebrew Applications",
 	body:
-"This is the body of the Homebrew Applications topic."
+'There are many great homebrew applications available in Preware.<br />' +
+'<br />' +
+'Here are some of the leading homebrew applications from WebOS Internals and other developers:<br />' +
+'<ul>' +
+'<li>Save/Restore</li>Save/Restore enables saving and restoring application data to and from the /media/internal/saverestore/ directory on a webOS device.' +
+'<li>Mode Switcher</li>Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.' +
+'<li>Terminal</li>Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.' +
+'<li>Dr. Battery</li>Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.' +
+'</ul>' +
+'More great applications will be added to this list in future updates.'
     },
     'webos-patches': {
 	name: "Using Patches to Add Features",
