@@ -123,7 +123,7 @@ var topics = {
 'Dr. Battery' +
 '</div>' +
 '<br />' +
-'Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.<br />' +
+'Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity of your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.<br />' +
 '<br />'
     },
     'webos-patches': {
