@@ -1,7 +1,7 @@
 function StartupAssistant()
 {
     // on first start, this message is displayed, along with the current version message from below
-    this.firstMessage = $L('The definitive source for information about Preware, WebOS Internals and great Homebrew Applications.<br><br>Rod Whitby (the founder and leader of Preware and WebOS Internals, and architect of the preware.org webOS homebrew ecosystem) has put together an extensive collection of official documentation about the Preware Homebrew Installer and other Homebrew Applications, Patches and Custom Kernels.');
+    this.firstMessage = $L('The definitive source for information about Preware, WebOS Internals and great Homebrew Applications.<br><br>Rod Whitby (the founder/lead of WebOS Internals, and architect of the Preware webOS homebrew ecosystem) has gathered together an extensive collection of official documentation about the Preware Homebrew Installer and other Homebrew Applications, Patches, Themes and Custom Kernels.');
 	
     this.secondMessage = $L('We hope you enjoy learning about Preware & Homebrew Applications.<br><br>You can find more information about Preware and WebOS Internals at <a href=http://www.webos-internals.org/>http://www.webos-internals.org/</a><br><br>The latest additions and changes to Preware Homebrew Documentation are detailed in the section below:');
 	

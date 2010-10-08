@@ -17,10 +17,10 @@ var topics = {
 	name: "Installing Preware (Required)",
 	body: 
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
-'  Stage 1: Enable Developer Mode' +
+'Stage 1: Enable Developer Mode' +
 '</div>' +
 '<br />' +
-'<strong>About:</strong> Developer Mode allows you to install apps, patches, and more directly on your device without the need for the App Catalog.<br />' +
+'<strong>About:</strong> Developer Mode allows you to install homebrew applicatios, patches, themes and more directly on your device without the need for the App Catalog.<br />' +
 '<br />' +
 '<strong>Note:</strong> These functions are done on your phone.<br />' +
 '<br />' +
@@ -99,19 +99,73 @@ var topics = {
 	body:
 'There are many great homebrew applications available in Preware.<br />' +
 '<br />' +
-'Here are some of the leading homebrew applications from WebOS Internals and other developers:<br />' +
-'<ul>' +
-'<li>Save/Restore</li>Save/Restore enables saving and restoring application data to and from the /media/internal/saverestore/ directory on a webOS device.' +
-'<li>Mode Switcher</li>Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.' +
-'<li>Terminal</li>Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.' +
-'<li>Dr. Battery</li>Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.' +
-'</ul>' +
-'More great applications will be added to this list in future updates.'
+'Here are some of the leading homebrew applications from WebOS Internals and other developers (more great applications will be added to this list in future updates):<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'Save/Restore' +
+'</div>' +
+'<br />' +
+'Save/Restore enables saving and restoring application data to and from the /media/internal/saverestore/ directory on a webOS device.<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'Mode Switcher' +
+'</div>' +
+'<br />' +
+'Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'Terminal' +
+'</div>' +
+'<br />' +
+'Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'Dr. Battery' +
+'</div>' +
+'<br />' +
+'Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.<br />' +
+'<br />'
     },
     'webos-patches': {
 	name: "Using Patches to Add Features",
 	body:
-"This is the body of the WebOS Patches topic."
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Stage 1: Choose Your Patch' +
+'</div>' +
+'<br />' +
+'1.) There are many different categories of patches to choose from.<br />' +
+'<br />' +
+'<img src="images/webos-patches/select-patch-category.png" width="200" /><br />' +
+'<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Stage 2: Install Your Patch' +
+'</div>' +
+'<br />' +
+'1.) Select a patch of your choice and install it.<br />' +
+'<br />' +
+'<img src="images/webos-patches/select-patch.png" width="200" /><br />' +
+'<br />' +
+'2.) Allow any required dependencies to be installed.<br />' +
+'<br />' +
+'<img src="images/webos-patches/install-patch-dependencies.png" width="200" /><br />' +
+'<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Stage 3: Restart Luna' +
+'</div>' +
+'<br />' +
+'1.) Restart Luna to allow the patch to take effect.<br />' +
+'<br />' +
+'<img src="images/webos-patches/restart-luna.png" width="200" /><br />' +
+'<br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'  Important Notes' +
+'</div>' +
+'<br />' +
+'1.) Most patches will update automatically after any webOS update, but there are some patches which must be uninstalled before each webOS update.  Check the PreCentral forums for details.<br />' +
+'<br />'
     },
     'webos-themes': {
 	name: "Personalise Your Device Theme",
@@ -142,6 +196,7 @@ var topics = {
 '<br />' +
 '<img src="images/webos-themes/update-package-list.png" width="200" /><br />' +
 '<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 '  Stage 2: Choose Your Theme' +
 '</div>' +
@@ -168,6 +223,10 @@ var topics = {
     'custom-kernels': {
 	name: "Overclocking & Custom Kernels",
 	body:
+'<strong>Note that overclocking is very likely to <a href=http://developer.palm.com/blog/2010/03/a-statement-on-the-\
+overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
+'<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 '  Stage 1: Installing Govnah' +
 '</div>' +
@@ -200,6 +259,7 @@ var topics = {
 '<br />' +
 '4.) Perform a back gesture to bring you to the previous screen of search results.<br />' +
 '<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 '  Stage 2: Installing UberKernel' +
 '</div>' +
@@ -219,6 +279,7 @@ var topics = {
 '<img src="images/custom-kernels/install-kernel-3.png" width="200" /><br />' +
 '<br />' +
 '<img src="images/custom-kernels/install-kernel-4.png" width="200" /><br />' +
+'<br />' +
 '<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 '  Stage 3: Configuring Govnah' +

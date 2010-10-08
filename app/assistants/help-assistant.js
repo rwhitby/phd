@@ -25,14 +25,14 @@ HelpAssistant.prototype.setup = function()
 	};
 	
 	this.supportModel.items.push({
-		text: $L('Wiki Page'),
-		detail: 'http://www.webos-internals.org/',
+		text: $L('Homebrew Forums'),
+		detail: 'http://m.forums.precentral.net/',
 		Class: 'img_web',
 		type: 'web'
 	});
 	this.supportModel.items.push({
-		text: $L('Forums'),
-		detail: 'http://www.precentral.net/',
+		text: $L('WebOS Internals Wiki'),
+		detail: 'http://www.webos-internals.org/',
 		Class: 'img_web',
 		type: 'web'
 	});

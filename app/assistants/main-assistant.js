@@ -3,7 +3,7 @@ function MainAssistant()
     // subtitle random list
     this.randomSub = 
 	[
-	 {weight: 30, text: $L('Written by Rod Whitby from WebOS Internals')},
+	 {weight: 30, text: $L('Collated by Rod Whitby from WebOS Internals')},
 	 ];
 	
     // setup list model
@@ -33,7 +33,7 @@ MainAssistant.prototype.setup = function()
 	
     this.controller.get('main-title').innerHTML = $L('Preware Homebrew Documentation');
     this.controller.get('version').innerHTML = $L('v0.0.0');
-    this.controller.get('subTitle').innerHTML = $L('Presented by Rod Whitby and WebOS Internals');	
+    this.controller.get('subTitle').innerHTML = $L('Collated by Rod Whitby from WebOS Internals');	
 
     // setup menu
     this.controller.setupWidget(Mojo.Menu.appMenu, { omitDefaultItems: true }, this.menuModel);
