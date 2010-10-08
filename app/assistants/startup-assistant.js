@@ -8,8 +8,10 @@ function StartupAssistant()
     // on new version start
     this.newMessages =
 	[
-		// Don't forget the comma on all but the last entry
-		{ version: '0.0.1', log: [ 'Initial Release!' ] }
+	 // Don't forget the comma on all but the last entry
+	 { version: '1.0.1', log: [ 'Fixed a couple of typos (thanks to everyone who reported them)',
+				    'Provided bit.ly links for all URLs destined for the desktop computer' ] },
+	 { version: '1.0.0', log: [ 'Initial Release' ] }
 	];
 	
     // setup menu

@@ -26,7 +26,7 @@ var topics = {
 '<br />' +
 '1.) Save all open files and close all apps on your phone.<br />' +
 '<br />' +
-'2.) Start typing "webos2009006" (without quotes). A "Developer Mode" app icon will appear, tap on it.<br />' +
+'2.) Start typing "webos20090606" (without quotes). A "Developer Mode" app icon will appear, tap on it.<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-app.png" width="200" height="149" /><br />' +
 '<br />' +
@@ -52,11 +52,11 @@ var topics = {
 '<strong>Note:</strong> These functions are done on your home computer.<br />' +
 '<br />' +
 '<br />' +
-'1.) Ensure you computer is up to data with the latest Java. On your PC, Mac, or Linux computer, click here to <a target="_blank" href="http://www.java.com/en/download/installed.jsp?detect=jre&amp;try=1">Verify Java</a>. Let it update Java as needed. Mac OS X users need to run /Application/Utilities/Java/Java Preferences and drag Java SE 6 to top of both lists, and exit. Windows 7 users may need <a href="http://forums.precentral.net/web-os-development/195043-setting-up-novacom-windows-7-easier-method.html">more help</a>.<br />' +
+'1.) Ensure you computer is up to data with the latest Java. On your PC, Mac, or Linux computer, go to http://bit.ly/phd-java to verify your Java version. Let it update Java as needed. Mac OS X users need to run /Application/Utilities/Java/Java Preferences and drag Java SE 6 to top of both lists, and exit. Windows 7 users may need <a href="http://forums.precentral.net/web-os-development/195043-setting-up-novacom-windows-7-easier-method.html">more help</a> (http://bit.ly/phd-windows7).<br />' +
 '<br />' +
 '<img src="images/installing-preware/java-verify.png" width="250" height="164" /><br />' +
 '<br />' +
-'2.) Download webOS Quick Install from the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a>. When asked, click "Save". Save the file it in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. Please consider donating to the developer.<br />' +
+'2.) Download webOS Quick Install from the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3). When asked, click "Save". Save the file in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. Please consider donating to the developer.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-save.png" width="250" height="175" /><br />' +
 '<br />' +
