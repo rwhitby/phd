@@ -73,9 +73,9 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-dr-download.png" width="250" height="144" /><br />' +
 '<br />' +
-'6.) If webOS Quick Install is unable to connect to your device, select the File->Options menu item and click the "Attempt Novacom (re)installation" button.  If it is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
+'6.) If webOS Quick Install is unable to connect to your device, select the menu item "File->Options" and click the "Attempt Novacom (re)installation" button.  If it is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-opening.png" width="250" height="154" /><br />' +
+'<img src="images/installing-preware/qi-file-options.png" width="250" /><br />' +
 '<br />' +
 '7.) It will automatically open to this screen once ready. Click on the blue "Down Arrow" icon.<br />' +
 '<br />' +
