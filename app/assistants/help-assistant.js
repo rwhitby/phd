@@ -25,14 +25,50 @@ HelpAssistant.prototype.setup = function()
 	};
 	
 	this.supportModel.items.push({
-		text: $L('Homebrew Forums'),
+		text: $L('PHD Forum Thread'),
+		detail: 'http://bit.ly/webos-phd-m',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('PreCentral Forums'),
 		detail: 'http://m.forums.precentral.net/',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('webOSroundup Forums'),
+		detail: 'http://forum.webosroundup.com/',
 		Class: 'img_web',
 		type: 'web'
 	});
 	this.supportModel.items.push({
 		text: $L('WebOS Internals Wiki'),
 		detail: 'http://www.webos-internals.org/',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('PreCentral.net'),
+		detail: 'http://m.precentral.net/',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('webOSroundup'),
+		detail: 'http://www.webosroundup.com/',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('AboutwebOS'),
+		detail: 'http://www.aboutwebos.com/',
+		Class: 'img_web',
+		type: 'web'
+	});
+	this.supportModel.items.push({
+		text: $L('WebOS World'),
+		detail: 'http://www.webosworld.com/',
 		Class: 'img_web',
 		type: 'web'
 	});

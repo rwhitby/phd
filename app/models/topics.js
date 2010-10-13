@@ -107,11 +107,31 @@ var topics = {
 '<br />' +
 'Save/Restore enables saving and restoring application data to and from the /media/internal/saverestore/ directory on a webOS device.<br />' +
 '<br />' +
+'<img src="images/homebrew-applications/saverestore.png" width="200" /><br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'Mode Switcher' +
 '</div>' +
 '<br />' +
 'Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.<br />' +
+'<br />' +
+'<img src="images/homebrew-applications/modeswitcher.png" width="200" /><br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'Dr. Battery' +
+'</div>' +
+'<br />' +
+'Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity of your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.<br />' +
+'<br />' +
+'<img src="images/homebrew-applications/drbattery.png" width="200" /><br />' +
+'<br />' +
+'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
+'wIRC' +
+'</div>' +
+'<br />' +
+'wIRC is the premier native webOS IRC client.  If you want to chat to the WebOS Internals developers in the #webos-internals IRC channel, or other webOS developers in the #webos IRC channel, this is the app for you.<br />' +
+'<br />' +
+'<img src="images/homebrew-applications/wirc.png" width="200" /><br />' +
 '<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'Terminal' +
@@ -119,11 +139,7 @@ var topics = {
 '<br />' +
 'Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.<br />' +
 '<br />' +
-'<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
-'Dr. Battery' +
-'</div>' +
-'<br />' +
-'Dr. Battery is an analysis and recalibration utility for your battery, allowing you to access the true capacity of your battery, to recalibrate your battery capacity measurement, and to get reliable info about remaining runtime.<br />' +
+'<img src="images/homebrew-applications/terminal.png" width="200" /><br />' +
 '<br />'
     },
     'webos-patches': {

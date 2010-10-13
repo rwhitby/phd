@@ -14,6 +14,10 @@ function TopicAssistant(topic, popped) {
     this.popped = popped;
 };
 
+TopicAssistant.prototype.aboutToActivate = function(callback) {
+    callback.defer();  
+}
+
 TopicAssistant.prototype.setup = function() {
     // set theme because this can be the first scene pushed
     this.controller.document.body.className = prefs.get().theme;
