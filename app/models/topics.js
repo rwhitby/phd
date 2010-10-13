@@ -73,25 +73,29 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-dr-download.png" width="250" height="144" /><br />' +
 '<br />' +
-'6.) It will automatically open to this screen once ready. Click on the blue "Down Arrow" icon.<br />' +
+'6.) If webOS Quick Install is unable to connect to your device, select the File->Options menu item and click the "Attempt Novacom (re)installation" button.  If it is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-opening.png" width="250" height="154" /><br />' +
 '<br />' +
-'7.) A special select box will appear. At the top, choose the <span style="color:#0099CC; font-weight:bold">WebOS-Internals Feed (Pre/Pixi)</span> that is appropriate for your device.<br />' +
+'7.) It will automatically open to this screen once ready. Click on the blue "Down Arrow" icon.<br />' +
+'<br />' +
+'<img src="images/installing-preware/qi-opening.png" width="250" height="154" /><br />' +
+'<br />' +
+'8.) A special select box will appear. At the top, choose the <span style="color:#0099CC; font-weight:bold">WebOS-Internals Feed (Pre/Pixi)</span> that is appropriate for your device.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-list-01.png" width="250" height="358" /><br />' +
 '<br />' +
-'8.) Check the box for Preware. Click "Download", then "Close".<br />' +
+'9.) Check the box for Preware. Click "Download", then "Close".<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-list-02.png" width="250" height="357" /><br />' +
 '<br />' +
-'9.)  It will now show the app in the list. Click the "Install" button.<br />' +
+'10.)  It will now show the app in the list. Click the "Install" button.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-opening-with-app.png" width="250" height="154" /><br />' +
 '<br />' +
-'10.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
+'11.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
 '<br />' +
-'11.) It is recommended that you turn off Developer Mode at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>.<br />' +
+'12.) It is recommended that you turn off Developer Mode at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>.<br />' +
 '<br />'
     },
     'homebrew-applications': {
@@ -325,7 +329,7 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-5.png" width="200" /><br />' +
 '<br />' +
-'6.) Close the program.<br />' +
+'6.) Close the Govnah program (the kernel operates independently in the background, so the Govnah program does not need to be kept open).<br />' +
 '<br />'
     },
 }

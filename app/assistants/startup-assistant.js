@@ -10,6 +10,8 @@ function StartupAssistant()
 	[
 	 // Don't forget the comma on all but the last entry
 	 { version: '1.0.2', log: [ 'Improved topic loading code to give smoother transitions',
+				    'Added some more troubleshooting hints for webOS Quick Install',
+				    'Noted that Govnah does not need to be kept open',
 				    'Added screenshots for the featured apps',
 				    'Added a direct link to the PHD forum thread in the Help scene',
 				    'Added webOS-related support sites to the Help scene'
