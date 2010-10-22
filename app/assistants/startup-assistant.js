@@ -11,7 +11,11 @@ function StartupAssistant(changelog)
     this.newMessages =
 	[
 	 // Don't forget the comma on all but the last entry
-	 { version: '1.0.3', log: [ 'Added a Changelog button to the Help scene' ] },
+	 { version: '1.1.0', log: [ 'Added a Changelog button to the Help scene',
+				    'Noted that Developer Mode is only required to install Preware',
+				    'Added official documentation and forum thread links for all sections',
+				    'Added overclocking information for Palm Pixi/Pixi+ and Palm Pre 2'
+				    ] },
 	 { version: '1.0.2', log: [ 'Improved topic loading code to give smoother transitions',
 				    'Added some more troubleshooting hints for webOS Quick Install',
 				    'Noted that Govnah does not need to be kept open',

@@ -95,7 +95,9 @@ var topics = {
 '<br />' +
 '11.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
 '<br />' +
-'12.) It is recommended that you turn off Developer Mode at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>.<br />' +
+'12.) It is recommended that you turn off Developer Mode at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>. You only need Developer Mode to install Preware. Once Preware is installed, you no longer need to put your phone in Developer Mode or connect it to your computer to install packages using Preware.<br />' +
+'<br />' +
+'13.) The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Preware">official documentation for Preware</a>. If you have questions about Preware, please read the <a href="http://m.forums.precentral.net/webos-internals/245792-preware-1-x.html">official forum thread</a> (http://bit.ly/phd-preware) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'
     },
     'homebrew-applications': {
@@ -113,6 +115,10 @@ var topics = {
 '<br />' +
 '<img src="images/homebrew-applications/saverestore.png" width="200" /><br />' +
 '<br />' +
+'The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:SaveRestore">official documentation for Save/Restore</a>.<br />' +
+'<br />' +
+'If you have questions about Save/Restore, please read the <a href="http://m.forums.precentral.net/webos-internals/237558-save-restore-community-development.html">official forum thread</a> (http://bit.ly/phd-saverestore) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'Mode Switcher' +
 '</div>' +
@@ -120,6 +126,10 @@ var topics = {
 'Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.<br />' +
 '<br />' +
 '<img src="images/homebrew-applications/modeswitcher.png" width="200" /><br />' +
+'<br />' +
+'The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:ModeSwitcher">official documentation for Mode Switcher</a>.<br />' +
+'<br />' +
+'If you have questions about Mode Switcher, please read the <a href="http://m.forums.precentral.net/enlightened-linux-solutions/260212-ms-mode-switcher-1-x.html">official forum thread</a> (http://bit.ly/phd-modeswitcher) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'Dr. Battery' +
@@ -129,6 +139,8 @@ var topics = {
 '<br />' +
 '<img src="images/homebrew-applications/drbattery.png" width="200" /><br />' +
 '<br />' +
+'If you have questions about Dr. Battery, please read the <a href="http://m.forums.precentral.net/homebrew-apps/260947-dr-battery.html">official forum thread</a> (http://bit.ly/phd-drbattery) and then ask for assistance there if your question is not already answered in the forum thread.<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'wIRC' +
 '</div>' +
@@ -137,6 +149,10 @@ var topics = {
 '<br />' +
 '<img src="images/homebrew-applications/wirc.png" width="200" /><br />' +
 '<br />' +
+'The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:wIRC">official documentation for wIRC</a>.<br />' +
+'<br />' +
+'If you have questions about wIRC, please read the <a href="http://m.forums.precentral.net/webos-internals/213722-wirc-webos-irc-client.html">official forum thread</a> (http://bit.ly/phd-wirc) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
+'<br />' +
 '<div style="background-color:#333333; color:#FFFFFF; font-weight:bold; padding:4px; -webkit-border-radius: 5px;">' +
 'Terminal' +
 '</div>' +
@@ -144,6 +160,10 @@ var topics = {
 'Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.<br />' +
 '<br />' +
 '<img src="images/homebrew-applications/terminal.png" width="200" /><br />' +
+'<br />' +
+'The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Terminal">official documentation for Terminal</a>.<br />' +
+'<br />' +
+'If you have questions about Terminal, please read the <a href="http://m.forums.precentral.net/webos-internals/224502-terminal-app.html">official forum thread</a> (http://bit.ly/phd-terminal) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'
     },
     'webos-patches': {
@@ -184,7 +204,9 @@ var topics = {
 '  Important Notes' +
 '</div>' +
 '<br />' +
-'1.) Most patches will update automatically after any webOS update, but there are some patches which must be uninstalled before each webOS update.  Check the PreCentral forums for details.<br />' +
+'1.) Most patches will update automatically after any webOS update, but there are some patches which must be uninstalled before each webOS update.  Refer to <a href="http://m.forums.precentral.net/webos-patches/253860-attention-patches-must-removed-prior-ota-update.html">this thread</a> (http://bit.ly/phd-removepatches) on the PreCentral forums for details.<br />' +
+'<br />' +
+'2.) If you have any questions about a particular patch, you can often find an existing forum thread for the patch in the <a href="http://m.forums.precentral.net/webos-patches/">webOS Patches Forum</a> (http://bit.ly/phd-webospatches).<br />' +
 '<br />'
     },
     'webos-themes': {
@@ -238,6 +260,8 @@ var topics = {
 '2.) Themes must always be removed before any webOS update.<br />' +
 '<br />' +
 '3.) Once you have settled on your chosen theme, you may wish to disable the theme feeds to reduce your Preware startup time.<br />' +
+'<br />' +
+'4.) If you have any questions about a particular theme, you can often find an existing forum thread for the theme in the <a href="http://m.forums.precentral.net/webos-themes/">webOS Themes Forum</a> (http://bit.ly/phd-webosthemes).<br />' +
 '<br />'
     },
     'custom-kernels': {
@@ -321,7 +345,7 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-3.png" width="200" /><br />' +
 '<br />' +
-'4.) Select Screenstate 500/1000 (This is a default profile that comes programmed into Govnah)<br />' +
+'4.) Select Screenstate 500/1000 (This is a default profile that comes programmed into Govnah). Note that overclocking to 1GHz is only available on the Palm Pre/Pre+.  The Palm Pixi/Pixi+ does not yet have a stable overclocking solution, although WebOS Internals is currently testing 750MHz overclocking for the Palm Pixi/Pixi+. There is no overclocking solution available yet for the Palm Pre 2.<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-4.png" width="200" /><br />' +
 '<br />' +
@@ -330,6 +354,10 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<img src="images/custom-kernels/run-govnah-5.png" width="200" /><br />' +
 '<br />' +
 '6.) Close the Govnah program (the kernel operates independently in the background, so the Govnah program does not need to be kept open).<br />' +
+'<br />' +
+'7.) The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Govnah">official documentation for Govnah</a>. If you have questions about Govnah, please read the <a href="http://m.forums.precentral.net/webos-internals/244701-govnah.html">official forum thread</a> (http://bit.ly/phd-govnah) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
+'<br />' +
+'8.) The WebOS Internals Wiki also contains the <a href="http://www.webos-internals.org/wiki/Application:UberKernel">official documentation for UberKernel</a>. If you have questions about UberKernel, please read the <a href="http://m.forums.precentral.net/webos-internals/242728-webos-internals-uber-kernel.html">official forum thread</a> (http://bit.ly/phd-uberkernel) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'
     },
 }
