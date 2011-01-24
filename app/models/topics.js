@@ -73,7 +73,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-dr-download.png" width="250" height="144" /><br />' +
 '<br />' +
-'6.) If webOS Quick Install is unable to connect to your device, select the menu item "File->Options" and click the "Attempt Novacom (re)installation" button.  If it is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
+'6.) If webOS Quick Install is unable to connect to your device, select the menu item "File->Options" and click the "Attempt Novacom (re)installation" button. If you are attempting to connect to a Pre 2 running webOS 2.x, you will first need to install the Novacom drivers from the webOS 2.0 doctor. There is a <a href="http://forums.precentral.net/palm-pre-2/269511-easy-preware-install-your-pre-2-a.html">forum thread</a> (http://bit.ly/phd-preware-pre2) with instructions for how to do this. If webOS Quick Install is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-file-options.png" width="250" /><br />' +
 '<br />' +
@@ -157,7 +157,7 @@ var topics = {
 'Terminal' +
 '</div>' +
 '<br />' +
-'Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.<br />' +
+'Terminal is a command line terminal for webOS, enabling you to get complete "root" access to your device.  Unfortunately, Terminal is not operational on webOS 2.0 yet.<br />' +
 '<br />' +
 '<img src="images/homebrew-applications/terminal.png" width="200" /><br />' +
 '<br />' +
@@ -345,11 +345,11 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-3.png" width="200" /><br />' +
 '<br />' +
-'4.) Select Screenstate 500/1000 (This is a default profile that comes programmed into Govnah). Note that overclocking to 1GHz is only available on the Palm Pre/Pre+.  The Palm Pixi/Pixi+ does not yet have a stable overclocking solution, although WebOS Internals is currently testing 750MHz overclocking for the Palm Pixi/Pixi+. There is no overclocking solution available yet for the Palm Pre 2.<br />' +
+'4.) For the Palm Pre/Pre+, select Screenstate 500/1000 (this is a default profile that comes programmed into Govnah). Note that overclocking to 1GHz is only available on the Palm Pre/Pre+.  For the Palm Pixi/Pixi+, select OnDemandTcl 806 (the Pixi/Pixi+ has an 806.4MHz overclocking limit, and does not have the screenstate option available). There is no stable overclocking solution publicly available yet for the Palm Pre 2, but WebOS Internals is currently testing 1.4GHz overclocking code for stability.<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-4.png" width="200" /><br />' +
 '<br />' +
-'5.) Govnah will now show that you are running the Screenstate 500/1000 profile, which means that your phone will be running at 1GHz with the screen on and 500MHz when the screen is off.<br />' +
+'5.) For the Palm Pre/Pre+, Govnah will now show that you are running the Screenstate 500/1000 profile, which means that your phone will be running at 1GHz with the screen on and 500MHz when the screen is off. For the Palm Pixi/Pixi+, Govnah will show that you are running the OnDemandTcl 806 profile, which means that your phone will speed up to 806.4MHz when under load, but clock back down to 122.8MHz when not under load.<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-5.png" width="200" /><br />' +
 '<br />' +

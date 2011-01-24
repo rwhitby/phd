@@ -11,6 +11,10 @@ function StartupAssistant(changelog)
     this.newMessages =
 	[
 	 // Don't forget the comma on all but the last entry
+	 { version: '1.1.1', log: [ 'Added overclocking information for the Palm Pixi/Pixi+ release of UberKernel',
+				    'Added installation information for webOS 2.0 on the Pre 2',
+				    'Noted that Terminal is not operational on webOS 2.0'
+				    ] },
 	 { version: '1.1.0', log: [ 'Added a Changelog button to the Help scene',
 				    'Noted that Developer Mode is only required to install Preware',
 				    'Added official documentation and forum thread links for all sections',
