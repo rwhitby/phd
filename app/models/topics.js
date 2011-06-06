@@ -52,11 +52,11 @@ var topics = {
 '<strong>Note:</strong> These functions are done on your home computer.<br />' +
 '<br />' +
 '<br />' +
-'1.) Ensure you computer is up to data with the latest Java. On your PC, Mac, or Linux computer, go to http://bit.ly/phd-java to verify your Java version. Let it update Java as needed. Mac OS X users need to run /Application/Utilities/Java/Java Preferences and drag Java SE 6 to top of both lists, and exit. Windows 7 users may need <a href="http://forums.precentral.net/web-os-development/195043-setting-up-novacom-windows-7-easier-method.html">more help</a> (http://bit.ly/phd-windows7).<br />' +
+'1.) Ensure you computer is up to data with the latest Java. On your PC, Mac, or Linux computer, go to http://bit.ly/phd-java-test to verify your Java version. Let it update Java as needed. Mac OS X users need to run /Application/Utilities/Java/Java Preferences and drag Java SE 6 to top of both lists, and exit.<br />' +
 '<br />' +
 '<img src="images/installing-preware/java-verify.png" width="250" height="164" /><br />' +
 '<br />' +
-'2.) Download webOS Quick Install from the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3). When asked, click "Save". Save the file in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. Please consider donating to the developer.<br />' +
+'2.) Download webOS Quick Install from the <a href="http://forums.precentral.net/canuck-coding/274461-webos-quick-install-v4-1-1-a.html">official forum thread</a> (http://bit.ly/phd-wosqi4). When asked, click "Save". Save the file in a location that you can remember, such as <em>My Documents</em> or your <em>Desktop</em>. Please consider donating to the developer.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-save.png" width="250" height="175" /><br />' +
 '<br />' +
@@ -64,38 +64,37 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-open.png" width="250" height="196" /><br />' +
 '<br />' +
-'4.) If this is the first time, it will alert you that webOS Doctor is needed. Select the webOS Doctor that is appropriate for your carrier and device.<br />' +
+'4.) If you have not previously installed Novacom drivers on your computer, webOS Quick Install will alert you that the Novacom Driver is missing and needs to be installed.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-carrier.png" width="250" height="175" /><br />' +
-'<img src="images/installing-preware/qi-model.png" width="250" height="176" /><br />' +
+'<img src="images/installing-preware/qi-novacom-required.png" /><br />' +
 '<br />' +
-'5.) Once your Carrier and Device are selected, click "Start Download". The webOS Doctor will now download.<br />' +
+'Select Yes to allow the Novacom Driver to be downloaded and installed.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-dr-download.png" width="250" height="144" /><br />' +
+'<img src="images/installing-preware/qi-novacom-downloading.png" /><br />' +
+'<img src="images/installing-preware/qi-novacom-installed.png" /><br />' +
 '<br />' +
-'6.) If webOS Quick Install is unable to connect to your device, select the menu item "File->Options" and click the "Attempt Novacom (re)installation" button. If you are attempting to connect to a Pre 2 running webOS 2.x, you will first need to install the Novacom drivers from the webOS 2.0 doctor. There is a <a href="http://forums.precentral.net/palm-pre-2/269511-easy-preware-install-your-pre-2-a.html">forum thread</a> (http://bit.ly/phd-preware-pre2) with instructions for how to do this. If webOS Quick Install is still unable to connect to your device, please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/228310-webos-quick-install-v3-14-a.html">official forum thread</a> (http://bit.ly/phd-wosqi3).<br />' +
+'5.) If you forgot to enable developer mode, or do not have your device connected properly, you may see the following error messages. Enable developer mode and/or reconnect your device before relaunching webOS Quick Install.<br />' +
+'<img src="images/installing-preware/qi-onlaunch-prompt.png" /><br />' +
+'<img src="images/installing-preware/qi-duringusage-prompt.png" /><br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-file-options.png" width="250" /><br />' +
+'6.) If webOS Quick Install is still unable to connect to your device, select the menu item "File->Reinstall Novacom". If all attempts to connect to your device fail and you have double-checked developer mode and physical connections (no USB hubs or extenders), please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/274461-webos-quick-install-v4-1-1-a.html">official forum thread</a> (http://bit.ly/phd-wosqi4).<br />' +
+'7.) If all is well, webOS Quick Install will automatically open to this screen once ready. Click on the Online Repository button (the blue globe button below the green plus and red minus buttons).<br />' +
 '<br />' +
-'7.) It will automatically open to this screen once ready. Click on the blue "Down Arrow" icon.<br />' +
+'<img src="images/installing-preware/qi-opening.png" /><br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-opening.png" width="250" height="154" /><br />' +
+'9.) At this point, webOS Quick Install will download all the available package information from a number of online repositories hosted by WebOS Internals, PreCentral and some other sites.<br />' +
 '<br />' +
-'8.) A special select box will appear. At the top, choose the <span style="color:#0099CC; font-weight:bold">WebOS-Internals Feed (Pre/Pixi)</span> that is appropriate for your device.<br />' +
+'<img src="images/installing-preware/qi-feed-loading.png" /><br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-list-01.png" width="250" height="358" /><br />' +
+'10.) Type "Preware" in the search box and click the search button. The Preware package description will be shown. Click the "Install" button.<br />' +
 '<br />' +
-'9.) Check the box for Preware. Click "Download", then "Close".<br />' +
+'<img src="images/installing-preware/qi-opening-with-app.png" /><br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-list-02.png" width="250" height="357" /><br />' +
-'<br />' +
-'10.)  It will now show the app in the list. Click the "Install" button.<br />' +
-'<br />' +
-'<img src="images/installing-preware/qi-opening-with-app.png" width="250" height="154" /><br />' +
+'<img src="images/installing-preware/qi-preware-installing.png" /><br />' +
 '<br />' +
 '11.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
 '<br />' +
-'12.) It is recommended that you turn off Developer Mode at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>. You only need Developer Mode to install Preware. Once Preware is installed, you no longer need to put your phone in Developer Mode or connect it to your computer to install packages using Preware.<br />' +
+'12.) You can leave Developer Mode on if you intend on using WebOS Quick Install in the future, otherwise you can turn it off at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>. You only need Developer Mode to install Preware. Once Preware is installed, you no longer need to put your phone in Developer Mode or connect it to your computer to install packages using Preware.<br />' +
 '<br />' +
 '13.) The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Preware">official documentation for Preware</a>. If you have questions about Preware, please read the <a href="http://m.forums.precentral.net/webos-internals/245792-preware-1-x.html">official forum thread</a> (http://bit.ly/phd-preware) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'

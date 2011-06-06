@@ -11,6 +11,8 @@ function StartupAssistant(changelog)
     this.newMessages =
 	[
 	 // Don't forget the comma on all but the last entry
+	 { version: '1.2.0', log: [ 'Updated installation information for WebOS Quick Install 4.1.1'
+				    ] },
 	 { version: '1.1.1', log: [ 'Added overclocking information for the Palm Pixi/Pixi+ release of UberKernel',
 				    'Added installation information for webOS 2.0 on the Pre 2',
 				    'Noted that Terminal is not operational on webOS 2.0'
