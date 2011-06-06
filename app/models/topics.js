@@ -82,21 +82,21 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-opening.png" /><br />' +
 '<br />' +
-'9.) At this point, webOS Quick Install will download all the available package information from a number of online repositories hosted by WebOS Internals, PreCentral and some other sites.<br />' +
+'8.) At this point, webOS Quick Install will download all the available package information from a number of online repositories hosted by WebOS Internals, PreCentral and some other sites.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-feed-loading.png" /><br />' +
 '<br />' +
-'10.) Type "Preware" in the search box and click the search button. The Preware package description will be shown. Click the "Install" button.<br />' +
+'9.) Type "Preware" in the search box and click the search button. The Preware package description will be shown. Click the "Install" button.<br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-opening-with-app.png" /><br />' +
 '<br />' +
 '<img src="images/installing-preware/qi-preware-installing.png" /><br />' +
 '<br />' +
-'11.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
+'10.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
 '<br />' +
-'12.) You can leave Developer Mode on if you intend on using WebOS Quick Install in the future, otherwise you can turn it off at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>. You only need Developer Mode to install Preware. Once Preware is installed, you no longer need to put your phone in Developer Mode or connect it to your computer to install packages using Preware.<br />' +
+'11.) You can leave Developer Mode on if you intend on using WebOS Quick Install in the future, otherwise you can turn it off at this point. Follow the same instructions in Stage 1, but set the switch to <em>OFF</em>. You only need Developer Mode to install Preware. Once Preware is installed, you no longer need to put your phone in Developer Mode or connect it to your computer to install packages using Preware.<br />' +
 '<br />' +
-'13.) The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Preware">official documentation for Preware</a>. If you have questions about Preware, please read the <a href="http://m.forums.precentral.net/webos-internals/245792-preware-1-x.html">official forum thread</a> (http://bit.ly/phd-preware) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
+'12.) The WebOS Internals Wiki contains the <a href="http://www.webos-internals.org/wiki/Application:Preware">official documentation for Preware</a>. If you have questions about Preware, please read the <a href="http://m.forums.precentral.net/webos-internals/245792-preware-1-x.html">official forum thread</a> (http://bit.ly/phd-preware) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'
     },
     'homebrew-applications': {
