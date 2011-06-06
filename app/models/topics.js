@@ -66,31 +66,31 @@ var topics = {
 '<br />' +
 '4.) If you have not previously installed Novacom drivers on your computer, webOS Quick Install will alert you that the Novacom Driver is missing and needs to be installed.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-novacom-required.png" /><br />' +
+'<img src="images/installing-preware/qi-novacom-required.png" width="250" height="54" /><br />' +
 '<br />' +
 'Select Yes to allow the Novacom Driver to be downloaded and installed.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-novacom-downloading.png" /><br />' +
-'<img src="images/installing-preware/qi-novacom-installed.png" /><br />' +
+'<img src="images/installing-preware/qi-novacom-downloading.png" width="250" height="160" /><br />' +
+'<img src="images/installing-preware/qi-novacom-installed.png" width="250" height="160" /><br />' +
 '<br />' +
 '5.) If you forgot to enable developer mode, or do not have your device connected properly, you may see the following error messages. Enable developer mode and/or reconnect your device before relaunching webOS Quick Install.<br />' +
-'<img src="images/installing-preware/qi-onlaunch-prompt.png" /><br />' +
-'<img src="images/installing-preware/qi-duringusage-prompt.png" /><br />' +
+'<img src="images/installing-preware/qi-onlaunch-prompt.png" width="250" height="160" /><br />' +
+'<img src="images/installing-preware/qi-duringusage-prompt.png" width="250" height="160" /><br />' +
 '<br />' +
 '6.) If webOS Quick Install is still unable to connect to your device, select the menu item "File->Reinstall Novacom". If all attempts to connect to your device fail and you have double-checked developer mode and physical connections (no USB hubs or extenders), please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/274461-webos-quick-install-v4-1-1-a.html">official forum thread</a> (http://bit.ly/phd-wosqi4).<br />' +
 '7.) If all is well, webOS Quick Install will automatically open to this screen once ready. Click on the Online Repository button (the blue globe button below the green plus and red minus buttons).<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-opening.png" /><br />' +
+'<img src="images/installing-preware/qi-opening.png" width="250" height="160" /><br />' +
 '<br />' +
 '8.) At this point, webOS Quick Install will download all the available package information from a number of online repositories hosted by WebOS Internals, PreCentral and some other sites.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-feed-loading.png" /><br />' +
+'<img src="images/installing-preware/qi-feed-loading.png" width="250" height="160" /><br />' +
 '<br />' +
 '9.) Type "Preware" in the search box and click the search button. The Preware package description will be shown. Click the "Install" button.<br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-opening-with-app.png" /><br />' +
+'<img src="images/installing-preware/qi-opening-with-app.png" width="250" height="183" /><br />' +
 '<br />' +
-'<img src="images/installing-preware/qi-preware-installing.png" /><br />' +
+'<img src="images/installing-preware/qi-preware-installing.png" width="250" height="183" /><br />' +
 '<br />' +
 '10.) You can now close webOS Quick Install as well as unplug your phone from the computer.<br />' +
 '<br />' +
