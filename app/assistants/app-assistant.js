@@ -5,7 +5,7 @@ var vers =  new versionCookie();
 var showtopic = new showtopicHandler();
 
 // stage names
-var mainStageName = 'phm-main';
+var mainStageName = 'phd-main';
 
 function AppAssistant() {}
 

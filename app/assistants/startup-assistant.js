@@ -11,7 +11,10 @@ function StartupAssistant(changelog)
     this.newMessages =
 	[
 	 // Don't forget the comma on all but the last entry
-	 { version: '1.2.0', log: [ 'Updated installation information for WebOS Quick Install 4.1.1'
+	 { version: '2.0.0', log: [ 'Now compatible with the HP TouchPad at full screen resolution',
+				    'Updated Preware installation information for WebOS Quick Install 4.x',
+				    'Removed the Terminal app, as it is not compatible with webOS 2.0 or later',
+				    'Allows free rotation when viewing topics to enlarge screenshots'
 				    ] },
 	 { version: '1.1.1', log: [ 'Added overclocking information for the Palm Pixi/Pixi+ release of UberKernel',
 				    'Added installation information for webOS 2.0 on the Pre 2',
@@ -66,17 +69,34 @@ function StartupAssistant(changelog)
 StartupAssistant.prototype.setup = function()
 {
     // set theme because this can be the first scene pushed
-    this.controller.document.body.className = prefs.get().theme;
+    var deviceTheme = '';
+    if (Mojo.Environment.DeviceInfo.modelNameAscii == 'Pixi' ||
+	Mojo.Environment.DeviceInfo.modelNameAscii == 'Veer')
+	deviceTheme += ' small-device';
+    if (Mojo.Environment.DeviceInfo.modelNameAscii == 'TouchPad' ||
+	Mojo.Environment.DeviceInfo.modelNameAscii == 'Emulator')
+	deviceTheme += ' no-gesture';
+    this.controller.document.body.className = prefs.get().theme + deviceTheme;
 	
     // get elements
     this.titleContainer = this.controller.get('title');
     this.dataContainer =  this.controller.get('data');
+
+    if (Mojo.Environment.DeviceInfo.modelNameAscii == 'TouchPad' ||
+	Mojo.Environment.DeviceInfo.modelNameAscii == 'Emulator')
+	this.backElement = this.controller.get('back');
+    else
+	this.backElement = this.controller.get('header');
 	
     // set title
     if (this.justChangelog) {
 	this.titleContainer.innerHTML = $L('Changelog');
+	// setup back tap
+	this.backTapHandler = this.backTap.bindAsEventListener(this);
+	this.controller.listen(this.backElement, Mojo.Event.tap, this.backTapHandler);
     }
     else {
+	this.controller.get('back').hide();
 	if (vers.isFirst) {
 	    this.titleContainer.innerHTML = $L('Preware Homebrew Documentation');
 	}
@@ -133,14 +153,23 @@ StartupAssistant.prototype.setup = function()
 
 StartupAssistant.prototype.activate = function(event)
 {
-    // start continue button timer
-    this.timer = this.controller.window.setTimeout(this.showContinue.bind(this), 5 * 1000);
+    if (!this.justChangelog) {
+	// start continue button timer
+	this.timer = this.controller.window.setTimeout(this.showContinue.bind(this), 5 * 1000);
+    }
 };
 
 StartupAssistant.prototype.showContinue = function()
 {
     // show the command menu
     this.controller.setMenuVisible(Mojo.Menu.commandMenu, true);
+};
+
+StartupAssistant.prototype.backTap = function(event)
+{
+    if (this.justChangelog) {
+	this.controller.stageController.popScene();
+    }
 };
 
 StartupAssistant.prototype.handleCommand = function(event)

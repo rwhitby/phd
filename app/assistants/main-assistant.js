@@ -27,10 +27,6 @@ function MainAssistant()
 
 MainAssistant.prototype.setup = function()
 {
-	
-    // set theme because this can be the first scene pushed
-    this.controller.document.body.className = prefs.get().theme;
-	
     this.controller.get('main-title').innerHTML = $L('Preware Homebrew Documentation');
     this.controller.get('version').innerHTML = $L('v0.0.0');
     this.controller.get('subTitle').innerHTML = $L('Collated by Rod Whitby from WebOS Internals');	
@@ -50,7 +46,7 @@ MainAssistant.prototype.setup = function()
 	    name:	$L("What Is Homebrew?"),
 	    topic:	'what-is-homebrew',
 	}, {
-	    name:	$L("Installing Preware (Required)"),
+	    name:	$L("Installing Preware"),
 	    topic:	'installing-preware',
 	}, {
 	    name:	$L("Great Homebrew Applications"),
@@ -135,22 +131,6 @@ MainAssistant.prototype.handleCommand = function(event)
     }
 };
 
-MainAssistant.prototype.activate = function(event)
-{
-    if (this.alreadyActivated) {
-    }
-	
-    if (this.controller.stageController.setWindowOrientation) {
-	this.controller.stageController.setWindowOrientation("up");
-    }
-	
-    this.alreadyActivated = true;
-};
-
-MainAssistant.prototype.deactivate = function(event)
-{
-};
-
-MainAssistant.prototype.cleanup = function(event)
-{
-};
+MainAssistant.prototype.activate = function(event) {};
+MainAssistant.prototype.deactivate = function(event) {};
+MainAssistant.prototype.cleanup = function(event) {};

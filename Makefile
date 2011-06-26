@@ -1,11 +1,19 @@
+APPID = org.preware.docs
+
 package: clean
 	palm-package .
 
 test: package
-	- palm-install -r org.preware.docs
-	palm-install org.preware.docs_*.ipk
-	palm-launch org.preware.docs
+	- palm-install -r ${APPID}
+	palm-install ${APPID}_*.ipk
+	palm-launch ${APPID}
+
+install: package
+	palm-install ${APPID}_*.ipk
+	palm-launch ${APPID}
 
 clean:
 	find . -name '*~' -delete
-	rm -f ipkgtmp*.tar.gz org.preware.docs_*.ipk
+	rm -f ipkgtmp*.tar.gz ${APPID}_*.ipk
+
+clobber: clean

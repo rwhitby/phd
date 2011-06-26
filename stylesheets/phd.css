@@ -30,7 +30,6 @@ body.palm-dark .scene-fade-bottom
 	background: url(../images/palm-dark/fade-bottom.png) bottom center repeat-x;
 }
 
-
 /*
  * Startup Scene Styles
  */
@@ -61,8 +60,6 @@ body.palm-dark .scene-fade-bottom
 	font-size: 15px;
 }
 
-
-
 /*
  * Main Scene Styles
  */
@@ -70,7 +67,7 @@ body.palm-dark .scene-fade-bottom
 {
 	width: 76px;
 	height: 75px;
-	background: url(../icon.png) center center no-repeat;
+	background: url(../icon.png) center center no-repeat !important;
 }
 .main .palm-page-header-wrapper .title
 {
@@ -94,7 +91,6 @@ body.palm-dark .scene-fade-bottom
 	padding-top: 0px;
 	margin-top: 0px;
 }
-
 
 /*
  * Topic Scene Styles
@@ -136,199 +132,8 @@ body.palm-dark .scene-fade-bottom
 }
 
 /*
- * Generic Log Styles
- */
-.log .log-messages .palm-row
-{
-	min-height: 0px;
-}
-.log .log-messages .palm-row.lostFocus
-{
-	background-repeat: repeat-x;
-	background-image: url(../images/palm-default/palm-divider.png);
-	padding-bottom: 7px;
-	/*margin-bottom: -2px;*/
-}
-body.palm-dark .log .log-messages .palm-row.lostFocus
-{
-	background-image: url(../images/palm-dark/palm-divider.png);
-}
-.log .log-messages .palm-row.selected.lostFocus,
-body.palm-dark .log .log-messages .palm-row.selected.lostFocus
-{
-	background-image: none;
-}
-.log .log-messages .palm-row-wrapper
-{
-	position: relative;
-	padding-top: 8px;
-	padding-bottom: 11px;
-	background-repeat: repeat-y;
-	background-position: right;
-}
-.log .log-messages .palm-row.lostFocus .palm-row-wrapper
-{
-	padding-bottom: 8px;
-}
-.log .log-messages .type
-{
-	float: left;
-	font-weight: bold;
-	font-size: 13px;
-	padding-left: 20px;
-	background-repeat: no-repeat;
-	background-position-x: 7px;
-	background-position-y: 4px;
-}
-.log .log-messages .date
-{
-	/* im still not happy with this... */
-	display: none;
-	
-	
-	position: absolute;
-	font-weight: bold;
-	top: -5px;
-	right: 6px;
-	/*left: 7px;*/
-	font-size: 10px;
-	color: #666;
-	-webkit-border-image: url(../images/palm-default/line-bubble.png) 6 6 6 6 stretch stretch;
-	line-height: 1px;
-	padding-top: 1px;
-	padding-right: 2px;
-	padding-left: 2px;
-	height: 4px;
-}
-body.palm-dark .log .log-messages .date
-{
-	color: #ccc;
-	-webkit-border-image: url(../images/palm-dark/line-bubble.png) 6 6 6 6 stretch stretch;
-}
-.log .log-messages .message
-{
-	clear: both;
-	font-size: 14px;
-	padding-left: 7px;
-	padding-right: 7px;
-	word-wrap: break-word !important;
-}
-.log .log-messages .app
-{
-	display: none;
-}
-.log .log-messages .palm-row.selected .type,
-.log .log-messages .palm-row.selected .message,
-body.palm-default .log .log-messages .palm-row.selected .app
-{
-	color: #fff;
-}
-.log .log-messages .showapp .app
-{
-	display: block;
-	float: right;
-	font-size: 13px;
-	padding-right: 8px;
-	color: #666;
-	margin-top: -1px;
-}
-body.palm-dark .log .log-messages .showapp .app
-{
-	color: #ccc;
-}
-.log .log-messages .none .type				{ display: none; }
-.log .log-messages .info .type,
-.log .log-messages .debug .type,
-.log .log-messages .notice .type			{ color: #3473e7; background-image: url(../images/log-info-icon.png);	}
-.log .log-messages .alert .type,
-.log .log-messages .warning .type			{ color: #ffa202; background-image: url(../images/log-warning-icon.png);}
-.log .log-messages .err .type,
-.log .log-messages .crit .type				{ color: #f10000; background-image: url(../images/log-error-icon.png);	}
-.log .log-messages .palm-row-wrapper.info,
-.log .log-messages .palm-row-wrapper.debug,
-.log .log-messages .palm-row-wrapper.notice	{ background-image: url(../images/log-info-bg.png);		}
-.log .log-messages .palm-row-wrapper.alert,
-.log .log-messages .palm-row-wrapper.warning{ background-image: url(../images/log-warning-bg.png);	}
-.log .log-messages .palm-row-wrapper.err,
-.log .log-messages .palm-row-wrapper.crit	{ background-image: url(../images/log-error-bg.png);	}
-
-
-
-
-
-/*
- * Generic Form Styles
- */
-.form .palm-row-wrapper .note
-{
-	clear: both;
-	padding-left: 10px;
-	font-style: italic;
-}
-.form .palm-row-wrapper .label.left
-{
-	padding-left: 6px;
-	-webkit-palm-mouse-target: ignore;
-}
-.form .palm-list-selector .label
-{
-	float: left;
-}
-.form .palm-list-selector .title
-{
-	text-align: right;
-}
-.form .palm-group.disabled
-{
-	opacity: 0.35;
-}
-.form .palm-row .title.right .unit
-{
-	float: right;
-	padding-left: 8px;
-	padding-top: 4px;
-	text-align: left;
-	color: #aaa;
-	font-size: 16px;
-}
-
-
-
-/*
  * Help Scene Styles
  */
-
-/*
- * Help Scene Styles
- */
-.help .palm-page-header-wrapper .icon
-{
-	width: 76px;
-	height: 75px;
-	background: url(../icon.png) center center no-repeat;
-}
-.help .palm-page-header-wrapper .title
-{
-	padding-left: 80px;
-}
-.help .palm-page-header-wrapper .title.main
-{
-	font-size: 24px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.help .palm-page-header-wrapper .title .version
-{
-	font-size: 12px;
-	color: #888;
-	text-transform: lowercase;
-}
-.help .palm-page-header-wrapper .subtitle
-{
-	font-size: 14px;
-	padding-top: 0px;
-	margin-top: 0px;
-}
 .help .list_scene
 {
 	position:relative;

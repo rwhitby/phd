@@ -2,29 +2,25 @@ function CreditsAssistant() {};
 
 CreditsAssistant.prototype.setup = function()
 {
-	this.controller.get('main-title').innerHTML = $L('Preware Homebrew Documentation');
-	this.controller.get('version').innerHTML = $L('v0.0.0');
-	this.controller.get('subTitle').innerHTML = $L('');	
-	
-	// setup menu
-	this.controller.setupWidget(Mojo.Menu.appMenu, {omitDefaultItems: true}, {visible: false});
-	
-	// get elements
-	this.versionElement = 	this.controller.get('version');
-	this.subTitleElement =	this.controller.get('subTitle');
-	
-	this.versionElement.innerHTML = "v" + Mojo.Controller.appInfo.version;
-	this.subTitleElement.innerHTML = $L('I wish to thank some people for their help ...');;
+    // setup back tap
+    this.backElement = this.controller.get('icon');
+    this.backTapHandler = this.backTap.bindAsEventListener(this);
+    this.controller.listen(this.backElement, Mojo.Event.tap, this.backTapHandler);
 
+    this.controller.get('credits-title').innerHTML = $L("Credits");
+
+    // setup menu
+    this.controller.setupWidget(Mojo.Menu.appMenu, {omitDefaultItems: true}, {visible: false});
 };
 
-CreditsAssistant.prototype.activate = function(event)
+CreditsAssistant.prototype.backTap = function(event)
 {
-	if (this.controller.stageController.setWindowOrientation)
-	{
-    	this.controller.stageController.setWindowOrientation("up");
-	}
+    this.controller.stageController.popScene();
 };
+
+CreditsAssistant.prototype.activate = function(event) {};
 
 CreditsAssistant.prototype.deactivate = function(event) {}
-CreditsAssistant.prototype.cleanup = function(event) {}
+CreditsAssistant.prototype.cleanup = function(event) {
+    this.controller.stopListening(this.backElement,  Mojo.Event.tap, this.backTapHandler);
+}
