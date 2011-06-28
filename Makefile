@@ -1,7 +1,7 @@
 APPID = org.preware.docs
 
 package: clean
-	palm-package .
+	palm-package --use-v1-format .
 
 test: package
 	- palm-install -r ${APPID}

@@ -2,15 +2,15 @@ var topics = {
     'what-is-homebrew': {
 	name: "What Is Homebrew?",
 	body:
-'Homebrew is the name for an extensive collection of user-contributed applications, patches, themes and kernels for your webOS device that are distributed alongside the official Palm App Catalog.<br />' +
+'Homebrew is the name for an extensive collection of user-contributed applications, patches, themes and kernels for your webOS device that are distributed alongside the official HP App Catalog.<br />' +
 '<br />' +
-'Many applications in the official Palm App Catalog started off as homebrew applications.<br />' +
+'Many applications in the official HP App Catalog started off as homebrew applications.<br />' +
 '<br />' +
-'Other homebrew applications use undocumented features which prevents them being included in the official Palm App Catalog.<br />' +
+'Other homebrew applications use undocumented features which prevent them being included in the official HP App Catalog.<br />' +
 '<br />' +
 'The best way to access this homebrew collection is to use Preware.<br />' +
 '<br />' +
-'Although Palm does not officially support homebrew, Palm has publicly stated that they support the ability for the homebrew community to develop and distribute homebrew applications.<br />' +
+'Although HP/Palm does not officially support homebrew, they have publicly stated that they support the ability for the homebrew community to develop and distribute homebrew applications.<br />' +
 '<br />'
     },
     'installing-preware': {
@@ -24,7 +24,7 @@ var topics = {
 '<br />' +
 '<strong>Note:</strong> These functions are done on your webOS device.<br />' +
 '<br />' +
-'1.) Save all open files and close all apps on your device.<br />' +
+'1.) Save all open files and close all apps on your device. If your device does not have a physical keyboard, hit the "Just type" area to show the virtual keyboard. <br />' +
 '<br />' +
 '2.) Start typing "webos20090606" (without quotes). A "Developer Mode" app icon will appear, tap on it.<br />' +
 '<br />' +
@@ -125,7 +125,7 @@ var topics = {
 'Mode Switcher' +
 '</div>' +
 '<br />' +
-'Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on the Palm Pre/Pixi.  These modes can be activated manually, or triggered automatically by a number of different methods.<br />' +
+'Mode Switcher brings profile support to WebOS in the form of "modes" that can control nearly every available setting on your webOS device.  These modes can be activated manually, or triggered automatically by a number of different methods.<br />' +
 '<br />' +
 '<img src="images/homebrew-applications/modeswitcher.png" /><br />' +
 '<br />' +
@@ -196,7 +196,7 @@ var topics = {
 '<br />' +
 '1.) Most patches will update automatically after any webOS update, but there are some patches which must be uninstalled before each webOS update.  Refer to <a href="http://m.forums.precentral.net/webos-patches/253860-attention-patches-must-removed-prior-ota-update.html">this thread</a> (http://bit.ly/phd-removepatches) on the PreCentral forums for details.<br />' +
 '<br />' +
-'2.) If you have any questions about a particular patch, you can often find an existing forum thread for the patch in the <a href="http://m.forums.precentral.net/webos-patches/">webOS Patches Forum</a> (http://bit.ly/phd-webospatches).<br />' +
+'2.) If you have any questions about a particular patch, check the Preware package information screen for that patch to see if it has a "Homepage" link. If the patch does not have a "Homepage" link, you may find an existing forum thread for the patch in the <a href="http://m.forums.precentral.net/webos-patches/">webOS Patches Forum</a> (http://bit.ly/phd-webospatches).<br />' +
 '<br />'
     },
     'webos-themes': {
@@ -298,7 +298,7 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '  Stage 2: Installing UberKernel' +
 '</div>' +
 '<br />' +
-'<strong>About:</strong> UberKernel is a custom kernel that allows you to overclock your device.<br />' +
+'<strong>About:</strong> UberKernel is a custom kernel that allows you to overclock your device. Note that UberKernel may not be available yet for recent webOS devices.<br />' +
 '<br />' +
 '<strong>Note:</strong> These functions are done on your webOS device.<br />' +
 '<br />' +
@@ -335,7 +335,7 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-3.png" /><br />' +
 '<br />' +
-'4.) For the Palm Pre/Pre+, select Screenstate 500/1000 (this is a default profile that comes programmed into Govnah). Note that overclocking to 1GHz is only available on the Palm Pre/Pre+.  For the Palm Pixi/Pixi+, select OnDemandTcl 806 (the Pixi/Pixi+ has an 806.4MHz overclocking limit, and does not have the screenstate option available). There is no stable overclocking solution publicly available yet for the Palm Pre 2, but WebOS Internals is currently testing 1.4GHz overclocking code for stability.<br />' +
+'4.) For the Palm Pre/Pre+, select Screenstate 500/1000 (this is a default profile that comes programmed into Govnah). Note that overclocking to 1GHz is only available on the Palm Pre/Pre+.  For the Palm Pixi/Pixi+, select OnDemandTcl 806 (the Pixi/Pixi+ has an 806.4MHz overclocking limit, and does not have the screenstate option available). There is no stable overclocking solution publicly available yet for the Palm Pre 2, but WebOS Internals is currently testing 1.4GHz overclocking code for stability. There are no overclocking solutions available yet for the HP Veer or TouchPad.<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-4.png" /><br />' +
 '<br />' +
