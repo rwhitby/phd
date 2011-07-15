@@ -38,7 +38,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/dev-mode-reset.png" /><br />' +
 '<br />' +
-'5.) Plug your device into your home computer with the USB Cable. Select "Just Charge".<br />' +
+'5.) Plug your device into your home computer with the USB Cable. Select "Just Charge" (Phones) or "Cancel" (TouchPad). Do <strong>not</strong> select USB mode.<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-charge.png" /><br />' +
 '<br />' +

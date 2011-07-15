@@ -11,6 +11,7 @@ function StartupAssistant(changelog)
     this.newMessages =
 	[
 	 // Don't forget the comma on all but the last entry
+	 { version: '2.0.1', log: [ 'Clarified that Just Charge is renamed to Cancel on a TouchPad' ] },
 	 { version: '2.0.0', log: [ 'Now compatible with the HP TouchPad at full screen resolution',
 				    'Updated Preware installation information for WebOS Quick Install 4.x',
 				    'Removed the Terminal app, as it is not compatible with webOS 2.0 or later',
