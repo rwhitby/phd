@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
+<!doctype html>
+<html>
+  <head>
     <title>Preware Homebrew Documentation</title>
-    <script src="/usr/palm/frameworks/mojo/mojo.js" x-mojo-version="1" type="text/javascript" />
-	<link href="stylesheets/phd.css" media="screen" rel="stylesheet" type="text/css" />
-	<link href="stylesheets/phd-device.css" media="screen" rel="stylesheet" type="text/css" />
-</head>
-<body>
-</body>
+  </head>
+  <body>
+    <script type="text/javascript">
+    // Setup
+    var loc = window.location.href;
+    var path = loc.substr(0, loc.lastIndexOf("/") + 1);
+    var app = "enyo.html"; // default version
+    // Switching logic
+    var deviceInfo, majorVersion;
+    if (window.PalmSystem) {
+	deviceInfo = JSON.parse(PalmSystem.deviceInfo);
+	majorVersion = deviceInfo["platformVersionMajor"];
+	if (majorVersion < 3 ) {
+	    app = "mojo.html";
+	}
+    }
+    // Redirection
+    window.location.href = path + app;
+    </script>	
+  </body>
 </html>

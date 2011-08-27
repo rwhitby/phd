@@ -1,16 +1,15 @@
 {
 	"title": "Preware Homebrew Documentation",
 	"id": "org.preware.docs",
-	"version": "2.0.1",
-	"release_date":	"15-July-2011",
+	"version": "3.0.0",
+	"release_date":	"27-August-2011",
 	"vendor": "Rod Whitby, WebOS Internals",
 	"vendor_email":	"support@webos-internals.org",
 	"vendor_url": "http://www.webos-internals.org/",
 	"type": "web",
 	"main": "index.html",
 	"icon": "icon.png",
-	"removable": "true",
 	"noWindow": true,
 	"noDeprecatedStyles" : true,
-	"uiRevision": 2
+	"uiRevision": "2"
 }

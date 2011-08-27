@@ -1,0 +1,75 @@
+#main {
+	background: #666;
+}
+#main .main-list .main-item {
+	height: 100px;
+	font-size: 1.5em;
+	padding-left: 0px;
+}
+
+#main .main-list .icon {
+	width: 64px;
+	height: 64px;
+	line-height: 68px;
+	vertical-align: middle;
+	/* margin: -10px 2px -10px 0; */
+	margin: 10px 10px 10px 10px;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	color: #666;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#main .main-list .icon.intro {
+	background-image: url(../images/icon-intro.png);
+}
+#main .main-list .icon.preware {
+	background-image: url(../images/icon-preware.png);
+}
+#main .main-list .icon.apps {
+	background-image: url(../images/icon-apps.png);
+}
+#main .main-list .icon.patches {
+	background-image: url(../images/icon-patches.png);
+}
+#main .main-list .arrow {
+	margin: -8px 8px -10px 0;
+}
+
+#main .tag {
+	position: absolute;
+	z-index: 3;
+	background: url(../images/sliding-tag.png) right center no-repeat;
+	height: 100px;
+	width: 26px;
+	left: -26px;
+	margin-top: -2px;
+}
+
+#main .blank-slider .enyo-sliding-view-shadow {
+	left: 0;
+	background-image: url(../images/blank-sliding-shadow.png);
+}
+#main .blank-slider .enyo-vflexbox {
+       	background: #666 url(../images/blank-icon.png) center center no-repeat;
+}
+#main .blank-slider .enyo-vflexbox .centered {
+	font-size: 1.8em;
+	margin-top: 320px;
+	color: #999;
+}
+
+.header .enyo-grabbutton {
+	top: 0px;
+}
+.header .title {
+	padding-left: 35px;
+}
+
+.body {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
