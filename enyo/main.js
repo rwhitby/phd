@@ -5,11 +5,6 @@ enyo.kind(
 	
 	components: [
 	    
-	    {kind: 'AppMenu', components: [
-		 {caption: 'Credits', onclick: 'showCredits'},
-		 {caption: 'Help', onclick: 'showHelp'}
-	     ]},
-	    
 	    {kind: 'SlidingPane', flex: 1, wideWidth: 800, components: [
 		 
 		 {name: 'main', kind: 'enyo.SlidingView', width: '375px', components: [
@@ -28,7 +23,9 @@ enyo.kind(
 			   {name: 'webos-patches', kind: 'PHD.MainItem', className: 'main-item',
 			    label: 'Using Patches to Add New Features', icon: 'patches', onclick: 'popPatches'},
 			   {name: 'custom-kernels', kind: 'PHD.MainItem', className: 'main-item',
-			    label: 'Overclocking and Custom Kernels', icon: 'kernels', onclick: 'popKernels'}
+			    label: 'Overclocking and Custom Kernels', icon: 'kernels', onclick: 'popKernels'},
+			   {name: 'help-and-credits', kind: 'PHD.MainItem', className: 'main-item',
+			    label: 'Help and Credits', icon: 'help', onclick: 'popHelp'}
 		       ]}
 		  ]}
 	     ]}
@@ -71,6 +68,10 @@ enyo.kind(
 
 	popKernels: function() {
 	    this.popTopic('custom-kernels');
+	},
+
+	popHelp: function() {
+	    this.popTopic('help-and-credits');
 	},
 
 	popTopic: function(topic) {

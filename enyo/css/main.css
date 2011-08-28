@@ -36,6 +36,9 @@
 #main .main-list .icon.kernels {
 	background-image: url(../images/icon-kernels.png);
 }
+#main .main-list .icon.help {
+	background-image: url(../images/icon-help.png);
+}
 #main .main-list .arrow {
 	margin: -8px 8px -10px 0;
 }

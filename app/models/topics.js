@@ -350,4 +350,27 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '8.) The WebOS Internals Wiki also contains the <a href="http://www.webos-internals.org/wiki/Application:UberKernel">official documentation for UberKernel</a>. If you have questions about UberKernel, please read the <a href="http://m.forums.precentral.net/webos-internals/242728-webos-internals-uber-kernel.html">official forum thread</a> (http://bit.ly/phd-uberkernel) and then ask for assistance there if your question is not already answered in the documentation or the forum thread.<br />' +
 '<br />'
     },
+    'help-and-credits': {
+	name: "Help and Credits",
+	body:
+'<strong>Help</strong>' +
+'<ul>' +
+'<li><a href="http://bit.ly/webos-phd-m">PHD Forum Thread</a></li>'+
+'<li><a href="http://m.forums.precentral.net/">PreCentral Forums</a></li>'+
+'<li><a href="http://forum.webosroundup.com/">webOSroundup Forums</a></li>' +
+'<li><a href="http://www.webos-internals.org/">WebOS Internals Wiki</a></li>' +
+'<li><a href="http://m.precentral.net/">PreCentral.net</a></li>' +
+'<li><a href="http://www.webosroundup.com/">webOSroundup</a></li>' +
+'<li><a href="http://www.webosworld.com/">WebOS World</a></li>' +
+'<li><a href="http://webchat.freenode.net?channels=webos-internals">IRC Channel</a></li>' +
+'</ul>' +
+'<strong>Credits</strong>' +
+'<ul>' +
+'<li>Brandon VanBelle (oil) for code contributions.</li>' +
+'<li>James Harris (spdsktr) for content contributions.</li>' +
+'<li>Will Honey (Tibfib) for code contributions.</li>' +
+'<li>Maxine Hammett (JenP) for content contributions.</li>' +
+'<li>Jason Robitaille (JayCanuck) for content contributions.</li>' +
+'</ul>'
+    }
 }
