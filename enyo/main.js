@@ -26,7 +26,9 @@ enyo.kind(
 			   {name: 'homebrew-applications',  kind: 'PHD.MainItem', className: 'main-item',
 			    label: 'Great Homebrew Applications', icon: 'apps', onclick: 'popApps'},
 			   {name: 'webos-patches', kind: 'PHD.MainItem', className: 'main-item',
-			    label: 'Using Patches to Add New Features', icon: 'patches', onclick: 'popPatches'}
+			    label: 'Using Patches to Add New Features', icon: 'patches', onclick: 'popPatches'},
+			   {name: 'custom-kernels', kind: 'PHD.MainItem', className: 'main-item',
+			    label: 'Overclocking and Custom Kernels', icon: 'kernels', onclick: 'popKernels'}
 		       ]}
 		  ]}
 	     ]}
@@ -65,6 +67,10 @@ enyo.kind(
 
 	popPatches: function() {
 	    this.popTopic('webos-patches');
+	},
+
+	popKernels: function() {
+	    this.popTopic('custom-kernels');
 	},
 
 	popTopic: function(topic) {
