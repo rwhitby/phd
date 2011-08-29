@@ -353,7 +353,8 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
     'help-and-credits': {
 	name: "Help and Credits",
 	body:
-'<strong>Help</strong>' +
+'<strong>Help</strong><br /><br />' +
+'Here are some great sources of homebrew information and assistance:' +
 '<ul>' +
 '<li><a href="http://bit.ly/webos-phd-m">PHD Forum Thread</a></li>'+
 '<li><a href="http://m.forums.precentral.net/">PreCentral Forums</a></li>'+
@@ -364,7 +365,9 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<li><a href="http://www.webosworld.com/">WebOS World</a></li>' +
 '<li><a href="http://webchat.freenode.net?channels=webos-internals">IRC Channel</a></li>' +
 '</ul>' +
-'<strong>Credits</strong>' +
+'<strong>Credits</strong><br /><br />' +
+'Rod Whitby (rwhitby) is the author and developer of this application.<br /><br />' +
+'Other contributors include:' +
 '<ul>' +
 '<li>Brandon VanBelle (oil) for code contributions.</li>' +
 '<li>James Harris (spdsktr) for content contributions.</li>' +
