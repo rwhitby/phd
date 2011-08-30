@@ -12,7 +12,8 @@ function StartupAssistant(changelog)
 	[
 	 // Don't forget the comma on all but the last entry
 	 { version: '3.0.0', log: [ 'Packaged both Mojo and Enyo versions in a multi-platform package',
-				    'Added more information regarding recent overclocking kernel advances' ] },
+				    'Added more information regarding recent overclocking kernel advances',
+				    'Added a note about configurable patches and the Tweaks application' ] },
 	 { version: '2.0.1', log: [ 'Clarified that Just Charge is renamed to Cancel on a TouchPad' ] },
 	 { version: '2.0.0', log: [ 'Now compatible with the HP TouchPad at full screen resolution',
 				    'Updated Preware installation information for WebOS Quick Install 4.x',

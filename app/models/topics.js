@@ -79,7 +79,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/qi-duringusage-prompt.png" width="100%" /><br />' +
 '<br />' +
-'6.) If webOS Quick Install is still unable to connect to your device, select the menu item "File->Reinstall Novacom". If all attempts to connect to your device fail and you have double-checked developer mode and physical connections (no USB hubs or extenders), please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/274461-webos-quick-install-v4-1-1-a.html">official forum thread</a> (http://bit.ly/phd-wosqi4).<br />' +
+'6.) If webOS Quick Install is still unable to connect to your device, select the menu item "File->Reinstall Novacom". You may also need to download the latest Novacom drivers from <a href="http://opensource.palm.com/packages.html">http://opensource.palm.com/packages.html</a> if you are using a host operating system which was recently released (such as Mac OS X Lion). If all attempts to connect to your device fail and you have double-checked developer mode and physical connections (no USB hubs or extenders), please ask for assistance in the <a href="http://forums.precentral.net/canuck-coding/274461-webos-quick-install-v4-1-1-a.html">official forum thread</a> (http://bit.ly/phd-wosqi4).<br />' +
 '<br />' +
 '7.) If all is well, webOS Quick Install will automatically open to this screen once ready. Click on the Online Repository button (the blue globe button below the green plus and red minus buttons).<br />' +
 '<br />' +
@@ -197,6 +197,8 @@ var topics = {
 '1.) Most patches will update automatically after any webOS update, but there are some patches which must be uninstalled before each webOS update.  Refer to <a href="http://m.forums.precentral.net/webos-patches/253860-attention-patches-must-removed-prior-ota-update.html">this thread</a> (http://bit.ly/phd-removepatches) on the PreCentral forums for details.<br />' +
 '<br />' +
 '2.) If you have any questions about a particular patch, check the Preware package information screen for that patch to see if it has a "Homepage" link. If the patch does not have a "Homepage" link, you may find an existing forum thread for the patch in the <a href="http://m.forums.precentral.net/webos-patches/">webOS Patches Forum</a> (http://bit.ly/phd-webospatches).<br />' +
+'<br />' +
+'3.) Some patches are configurable (you will find most of these in the Advanced category). You can use the Tweaks application in Preware to configure the operation of these patches.<br />' +
 '<br />'
     },
     'webos-themes': {
