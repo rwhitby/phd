@@ -337,7 +337,7 @@ overclocking-patches/>void your warranty</a> if things go wrong.</strong>' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-3.png" /><br />' +
 '<br />' +
-'4.) For the Palm Pre/Pre+, select Screenstate 500/1000 (this is a default profile that comes programmed into Govnah). For the Palm Pixi/Pixi+, select OnDemandTcl 806 (the Pixi/Pixi+ has an 806.4MHz overclocking limit, and does not have the screenstate option available). For the Pre 2, select Screenstate3 1100 (the Pre 2 has a 1.1GHz overclocking limit). For the TouchPad, select OnDemandTcl 1512 (the TouchPad has a 1.512GHz overclocking limit). Overclocking solutions for the HP Veer and HP Pre 3 are under development, please check in Preware to see if they have been released yet.<br />' +
+'4.) For the Palm Pre/Pre+, select Screenstate 500/1000 (this is a default profile that comes programmed into Govnah). For the Palm Pixi/Pixi+, select OnDemandTcl 806 (the Pixi/Pixi+ has an 806.4MHz safe overclocking limit, and does not have the screenstate option available). For the Pre 2, select Screenstate3 1100 (the Pre 2 has a 1.1GHz safe overclocking limit). For the TouchPad, select OnDemandTcl 1512 (the TouchPad has a 1.512GHz safe overclocking limit). Overclocking solutions for the HP Veer and HP Pre 3 are under development, please check in Preware to see if they have been released yet. Higher frequency experimental kernels are available for some devices, but are not recommended for new users.<br />' +
 '<br />' +
 '<img src="images/custom-kernels/run-govnah-4.png" /><br />' +
 '<br />' +
