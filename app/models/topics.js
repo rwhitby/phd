@@ -34,7 +34,7 @@ var topics = {
 '<br />' +
 '<img src="images/installing-preware/dev-mode-on.png" /><br />' +
 '<br />' +
-'4.) You may be asked to "Restart Your Device". This will reboot your device.<br />' +
+'4.) Do not set any password for developer mode, as that may cause problems later in the installation. You may be asked to "Restart Your Device". This will reboot your device.<br />' +
 '<br />' +
 '<img src="images/installing-preware/dev-mode-reset.png" /><br />' +
 '<br />' +
